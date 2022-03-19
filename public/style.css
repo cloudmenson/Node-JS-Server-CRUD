@@ -1,0 +1,43 @@
+#preloader {
+  left: 50%;
+  margin: 15px 0;
+}
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.list-users {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+.user-container {
+  margin: 15px 10px;
+}
+.btn-margin {
+  margin-left: 10px;
+}
+.users-info {
+  font-size: 16px;
+  font-weight: bold;
+  color: #00695c;
+  position: relative;
+}
+.material-icons {
+  color: black;
+  position: absolute;
+  bottom: 1px;
+  margin-left: 5px;
+}
+.users-info--text-color {
+  color: black;
+}
+@media (max-width: 375px) {
+  .users-info {
+    font-size: 13px;
+  }
+  .list-users {
+    margin-top: 20px;
+  }
+}
